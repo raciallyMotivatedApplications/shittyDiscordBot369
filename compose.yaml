@@ -1,0 +1,10 @@
+services:
+  eldric-bot:
+    build: .
+    container_name: eldric-alarm-bot
+    restart: unless-stopped
+    # Mount the queue persistence if we ever add it, or logs
+    # volumes:
+    #   - ./data:/app/data
+    environment:
+      - DISCORD_TOKEN=your_token_here
