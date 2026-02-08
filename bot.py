@@ -53,7 +53,7 @@ async def on_message(message):
 
     if message.author.id == TARGET_USER_ID:
         try:
-            await message.reply("shut the fuck up faggot")
+            await message.reply("stay cold in toronto faggot")
         except Exception as e:
             print(f"Failed to reply: {e}")
 
