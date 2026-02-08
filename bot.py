@@ -18,7 +18,7 @@ logging.getLogger('discord.gateway').setLevel(logging.ERROR)
 logging.getLogger('discord.client').setLevel(logging.ERROR)
 
 TOKEN = os.getenv('DISCORD_TOKEN')
-TARGET_USER_ID = 309480305289330699
+TARGET_USER_ID = 300494697875374081
 ALARM_FILE = 'alarm.mp3'
 
 intents = discord.Intents.default()
